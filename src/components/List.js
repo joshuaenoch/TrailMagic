@@ -5,7 +5,7 @@ export default function List() {
     return (
         <div>
             <div>
-                <p className="testfont"> This is the trails page </p>
+                <p className="testfont"> Trail information will be listed here (?) </p>
             </div>
         </div>
     )

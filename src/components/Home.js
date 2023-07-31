@@ -1,12 +1,11 @@
 import React from "react"
 import '../style.css';
+import Map from './Map';
 
 export default function Home() {
     return (
         <div>
-            <div>
-                <p className="testfont"> This is the map page </p>
-            </div>
+            <Map />
         </div>
     )
 }
