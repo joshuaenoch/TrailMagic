@@ -1,12 +1,13 @@
 .navbar {
     display: flex;
     align-items: center;
-    background-color: grey;
+    background-color: black;
     border-radius: 5px;
 }
 
 .navbar li {
     font-size: 17px;
+    color: white;
 }
 
 .navbar ul {
@@ -16,7 +17,6 @@
 
 .navbar ul li {
     margin-right: 20px;
-
 }
 
 .navbar ul li:last-child {
@@ -24,7 +24,7 @@
 }
 
 .navbar ul li a {
-    color: whitye;
+    color: white;
     text-decoration: none;
 }
 
