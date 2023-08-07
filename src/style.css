@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+.navbar li {
+    font-size: 17px;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 40px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.testfont {
+  color: black;
+  text-align: center;
+}
