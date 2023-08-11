@@ -1,7 +1,6 @@
 import React, {useState} from "react"
 import '../style.css';
 import parks from "./ParkList";
-import Park from "./Park";
 
 export default function List() {
     const [sortBy, setSortBy] = useState('name');
@@ -14,8 +13,9 @@ export default function List() {
         if (sortBy === 'name') {
             return a.name.localeCompare(b.name);
         } else if (sortBy === 'distance') {
-            return a.distance - b.distance; // Sort by least distance
+            return a.distance - b.distance;
         }
+        return 0;
     });
 
     return (
