@@ -7,7 +7,7 @@ const parks = [
   new Park('Bothell Landing Trail', [47.758375235019784, -122.20765723231874], 1.3),
   new Park('Centennial Trail', [47.80890259900624, -122.21770236115123], 5.3),
   new Park('Sammammish River Trail', [47.758487063490136, -122.20486634232856], 3.4),
-  new Park('Blyth Park Trail', [47.750620548440125, -122.20895637464787], 1.8),
+  new Park('Blyth Park Trail', [47.750620548440125, -122.20895637464787], 1.8, [require('../images/image2.jpg')]),
   new Park('Greenbrier Trailhead', [47.76202022970643, -122.14903418999002], 3.5),
   new Park('Gold Creek County Park', [47.74248995514461, -122.13949380533415], 4.2),
 ];

@@ -28,12 +28,24 @@ export default function List() {
                 </select>
             </div>
             <ul>
-                {sortedParks.map((park, index) => (
-                    <li key={index}>
-                        <h2>{park.name}</h2>
-                        <p>{/* Park description here */}</p>
-                    </li>
-                ))}
+            {sortedParks.map((park, index) => (
+                <li key={index}>
+                    <h2>{park.name}</h2>
+                    <p>Distance from UW Bothell: {park.distance} miles</p>
+                    <div className="image-container">
+                        {park.images && park.images.length > 0 && (
+                            park.images.map((image, imageIndex) => (
+                                <img
+                                    key={imageIndex}
+                                    src={image}
+                                    alt={`${imageIndex}`}
+                                    style={{ height: '200px' }} // Set the fixed height here
+                                />
+                            ))
+                        )}
+                    </div>
+                </li>
+            ))}
             </ul>
         </div>
     );
