@@ -19,7 +19,7 @@ export default function List() {
     });
 
     return (
-        <div>
+        <div className = "list-container">
             <div>
                 Sort by:{" "}
                 <select value={sortBy} onChange={handleSortChange}>
@@ -32,6 +32,7 @@ export default function List() {
                 <li key={index}>
                     <h2>{park.name}</h2>
                     <p>Distance from UW Bothell: {park.distance} miles</p>
+                    <p>Difficulty: {park.difficulty}</p>
                     <div className="image-container">
                         {park.images && park.images.length > 0 && (
                             park.images.map((image, imageIndex) => (

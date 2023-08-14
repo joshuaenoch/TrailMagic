@@ -31,3 +31,13 @@
   color: black;
   text-align: center;
 }
+
+.list-container {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
