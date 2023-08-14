@@ -19,6 +19,9 @@ export default function Navbar() {
                     <li onClick={() => handleNavigateClick("/list")}>
                         Trails
                     </li>
+                    <li onClick={() => handleNavigateClick("/forage")}>
+                        Foraging
+                    </li>
                 </ul>
             </div>
         </nav>

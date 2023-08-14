@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap');
+
+.map-container{
+    background-image: url("./images/image14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    background-color: darkolivegreen;
+    background-color: rgb(51, 88, 18);
+    justify-content: center;
+    text-align: center;
 }
 
 .navbar li {
@@ -40,4 +50,13 @@
 ul{
     list-style-type: none;
     padding: 0;
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    background-color: rgba(246, 255, 229, 0.8);
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
 }
