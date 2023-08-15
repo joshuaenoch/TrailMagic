@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 
 export default function Forage() {
     return (
-        <div className = "list">
+        <div className = "forage">
           <ul>
                 {plants.map((plant, index) => (
                 <li key={index} style={{ marginTop: "50px" }}>

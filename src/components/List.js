@@ -54,6 +54,7 @@ export default function List() {
                         </Carousel>
                     )}
                     </div>
+                    <p>Plants for foraging: {park.plants}</p>
                 </li>
                 ))}
             </ul>

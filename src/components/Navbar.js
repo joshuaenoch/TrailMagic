@@ -12,7 +12,7 @@ export default function Navbar() {
 
         <nav>
             <div className="navbar">
-                <ul className="nav-items">
+                <ul classnName="nav-items">
                     <li onClick={() => handleNavigateClick("/")}>
                         Map
                     </li>
