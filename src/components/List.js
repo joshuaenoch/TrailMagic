@@ -23,6 +23,9 @@ export default function List() {
   return (
     <div className="list-container">
         <div className = "list">
+            <div className = "list-intro">
+                <p> All information were gathered from ______. Some parks have multiple images, so click the greyed-out dots to switch. Photos by us! Keep in mind that this is an ever-growing list and information will be updated or added in the future. </p>
+            </div>
             <div>
                 Sort by:{" "}
                 <select value={sortBy} onChange={handleSortChange}>
@@ -35,7 +38,7 @@ export default function List() {
                 <li key={index} style={{ marginTop: "50px" }}>
                     <h2>{park.name}</h2>
                     <p>Distance from UW Bothell: {park.distance} miles</p>
-                    <p>Difficulty: {park.difficulty}</p>
+                    <p>Difficulty: {park.difficulty} - {park.length}</p>
                     <div className="image-container">
                     {park.images && park.images.length > 0 && (
                         <Carousel showThumbs={false} showStatus={false}>
