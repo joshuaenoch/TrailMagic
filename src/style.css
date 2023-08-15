@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap');
 
 .map-container{
-    background-image: url("./images/image14.jpg");
+    background-image: url("./images/image5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -42,9 +43,14 @@
   text-align: center;
 }
 
+.search {
+    margin-bottom: 40px;
+}
+
 .list-container {
+    text-align: center;
     margin-top: 40px;
-    margin-left: 40px;
+    text-align: center;
 }
 
 ul{
@@ -58,5 +64,27 @@ ul{
     background-color: rgba(246, 255, 229, 0.8);
     max-width: 1250px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
+}
+
+.list-container {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/image9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel .control-arrow {
+    display: none;
 }

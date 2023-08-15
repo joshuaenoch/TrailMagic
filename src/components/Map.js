@@ -8,8 +8,16 @@ export default function Map() {
   const markericon = L.icon({
     // Location pin icons created by Smashicons - Flaticon
     iconUrl: require("./pin.png"),
-    iconSize: [35, 45],
+    iconSize: [45, 45],
   });
+
+  const logo = L.icon({
+    iconUrl: require("./logo.png"),
+    iconSize: [35, 25],
+  });
+
+
+  const UWBothell = [47.7590944830448, -122.1907070032883];
 
   return (
     <div className = "map-container">
@@ -19,7 +27,7 @@ export default function Map() {
           <p> Use the map to find nearby trails and click on the pins to view detailed information for each. Or, navigate to the pages at the top of your screen and sort hikes using the filter tool. For each location, you can find information about the hike, nearby food, and food you can forage for along the trail, all in one easy-to-use tool. </p>
           <p>Happy hiking!</p>
         </div>
-        <MapContainer center={[47.76232, -122.2054]} zoom={12} style={{ height: '100vh' }}>
+        <MapContainer center={[47.7732, -122.2054]} zoom={13} style={{ height: '100vh' }}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -29,6 +37,9 @@ export default function Map() {
               <Popup>{park.name}</Popup>
             </Marker>
           ))}
+          <Marker position={UWBothell} icon = {logo}>
+            <Popup>UW Bothell</Popup>
+          </Marker>
         </MapContainer>
       </div>
     </div>
