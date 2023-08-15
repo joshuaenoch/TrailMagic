@@ -1,5 +1,5 @@
 class Park {
-  constructor(name, coords, distance, images, difficulty, time, length, plants/*, food*/) {
+  constructor(name, coords, distance, images, difficulty, time, length, plants, food) {
     this.name = name;
     this.coords = coords;
     this.distance = distance;
@@ -8,6 +8,7 @@ class Park {
     this.time = time;
     this.length = length;
     this.plants = plants;
+    this.food = food;
   }
 }
 
