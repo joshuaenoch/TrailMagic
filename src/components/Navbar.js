@@ -11,8 +11,8 @@ export default function Navbar() {
     return (
 
         <nav>
-            <div class="navbar">
-                <ul class="nav-items">
+            <div className="navbar">
+                <ul className="nav-items">
                     <li onClick={() => handleNavigateClick("/")}>
                         Map
                     </li>
