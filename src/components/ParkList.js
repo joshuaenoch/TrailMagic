@@ -9,7 +9,7 @@ const parks = [
   new Park('Sammammish River Trail', [47.758487063490136, -122.20486634232856], 3.4, [require('../images/image5.jpg')], "intermediate", "2 hr 50 min", "9.5 miles", "Fireweed, Oregon Grape, Bittercress, Blackberry, Thimbleberry, Broadleaf Plantain, Oso Berry, Cleavers, Purple Archangel, Common Dandelion, Bigleaf Maple, White clover, Salmonberries"),
   new Park('Blyth Park Trail', [47.750620548440125, -122.20895637464787], 1.8, [require('../images/image2.jpg')], "easy", "35 min", "1.1 mi 252 ft", "Broadleaf Plantain, White clover, Fireweed, Bittercress, Blackberry, Thimbleberry, Oso Berry, Bigleaf Maple, Oregon Grape, Salmonberries"),
   new Park('Greenbrier Trailhead', [47.76202022970643, -122.14903418999002], 3.5, [require('../images/image15.jpg'), require('../images/image19.jpg')], "TBD", "TBD", "1.25 miles", "Blackberries, Bigleaf maple, Oso Berry, Red huckleberry, Plantain, Dandelion"),
-  new Park('Gold Creek County Park', [47.74248995514461, -122.13949380533415], 4.2, [require('../images/image8.jpg'), require('../images/image10.jpg'), require('../images/image17.jpg'), require('../images/image18.jpg')], "easy", "25 min", "1.25 miles", "Gold Creek County Park, Salal, Licorice fern, White Clover, Broadleaf Plantain, Common Dandelion, Thimbleberry, Cleavers, Miner’s lettuce, Oso Berry"),
+  new Park('Gold Creek County Park', [47.74248995514461, -122.13949380533415], 4.2, [require('../images/image8.jpg'), require('../images/image10.jpg'), require('../images/image17.jpg'), require('../images/image18.jpg')], "easy", "25 min", "1.25 miles", "Salal, Licorice fern, White Clover, Broadleaf Plantain, Common Dandelion, Thimbleberry, Cleavers, Miner’s lettuce, Oso Berry"),
 ];
 
 export default parks;
