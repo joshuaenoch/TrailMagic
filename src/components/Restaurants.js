@@ -23,10 +23,10 @@ const restaurants = [
   new Restaurant("Wendy’s", "A quick meal with burgers that are extremely high in protein.", "fast food"),
   new Restaurant("Vons 1000 Spirits", "Wide variety of American food with an Italian twist.", "restaurant"),
   new Restaurant("Vivi Pizzeria", "Sit down and eat pizza… it's okay to be lazy since you're gonna be hiking right after.", "restaurant"),
-  new Restaurant("Shell", "Grab a snack for yourself and your car before enjoying a nice hike.", "store"),
-  new Restaurant("522 Brew", "Coffee that's conveniently right off of 522, and right next to the Trailhead. No detours just to quench the caffeine addiction.", "store"),
+  new Restaurant("Shell", "Grab a snack for yourself and your car before enjoying a nice hike.", "other"),
+  new Restaurant("522 Brew", "Coffee that's conveniently right off of 522, and right next to the Trailhead. No detours just to quench the caffeine addiction.", "other"),
   new Restaurant("Maltby Pizza & Pasta", "An old school vibe to pizza and pasta, right off the Paradise Valley loop.", "restaurant"),
-  new Restaurant("Grounds Coffee Co.", "A perfect last-minute coffee right before exploring the Saint Edward State Park.", "store"),
+  new Restaurant("Grounds Coffee Co.", "A perfect last-minute coffee right before exploring the Saint Edward State Park.", "other"),
   new Restaurant("The Guest House", "Finish a long day of hiking with a bar and grill with a healthier twist to food.", "restaurant")
 ];
 

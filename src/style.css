@@ -128,3 +128,24 @@ ul{
     padding-bottom: 5px;
     background-color: white;
 }
+
+.food-container{
+    background-image: url("./images/image7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+}
+
+.food{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(255, 255, 255, .9);
+}
+
+.food li{
+    margin-left: 50px;
+    margin-right: 50px;
+}

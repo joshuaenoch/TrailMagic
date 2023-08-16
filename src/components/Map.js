@@ -24,7 +24,7 @@ export default function Map() {
       <div className = "welcome">
         <div>
           <p>Welcome to Trail Magic!</p>
-          <p> Use the map to find nearby trails and click on the pins to view their names. If you wish to view a more detailed description of the trails, check out the <a href="/list">Trails</a> page. If you wish to find something to eat before or after hiking, we have curated a list of the best nearby food spots in the <a href="/food">Food</a> page. If you wish to forage for your own food while hiking, check out the <a href="/forage">Foraging</a> page.</p>
+          <p> Use the map to find nearby trails and click on the pins to view their names. If you wish to view a more detailed description of the trails, check out the Trails page. If you wish to find something to eat before or after hiking, we have curated a list of the best nearby food spots in the Food page. If you wish to forage for your own food while hiking, check out the Foraging page.</p>
           <p>Happy hiking!</p>
         </div>
         <MapContainer center={[47.7732, -122.2054]} zoom={13} style={{ height: '100vh' }}>
