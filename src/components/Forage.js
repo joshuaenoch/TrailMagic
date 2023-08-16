@@ -7,7 +7,7 @@ export default function Forage() {
     return (
       <div className = "forage-container">
         <div className = "forage-intro">
-          <p>To see which plants can be foraged from what trail, check out the Trails page</p>
+          <p>To see which plants can be foraged from what trail, check out the <a href="/list">Trails</a> page</p>
         </div>
         <div className = "forage">
           <iframe className = "forage-iframe"

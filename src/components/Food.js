@@ -17,7 +17,7 @@ export default function Food() {
       <div className = "food-container">
         <div className = "food">
             <div style={{textAlign: 'center'}}>
-                <p>Here you can find a list of places to get food in Bothell! For a more specific list based on hike location, check out the Trails page.</p>
+                <p>Here you can find a list of places to get food in Bothell! For a more specific list based on hike location, check out the <a href="/list">Trails</a> page.</p>
                 Filter: &nbsp;
                 <select value={selectedType} onChange={handleTypeChange}>
                     <option value="all">All</option>
