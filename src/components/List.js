@@ -24,7 +24,7 @@ export default function List() {
     <div className="list-container">
         <div className = "list">
             <div className = "list-intro">
-                <p> All information were gathered from <a href="https://www.alltrails.com" target="_blank" rel="noopener noreferrer">here</a>. Some parks have multiple images, so click the greyed-out dots to switch. Photos by us! Keep in mind that this is an ever-growing list and information will be updated or added in the future. </p>
+                <p> All information were gathered from <a href="https://www.alltrails.com" target="_blank" rel="noopener noreferrer">here</a>. Photos by us! Keep in mind that this is an ever-growing list and information will be updated or added in the future. </p>
             </div>
             <div>
                 Sort by:{" "}
